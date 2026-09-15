@@ -1,0 +1,20 @@
+# Create a parent class Vehicle with an __init__ method that takes brand as input.
+# Add a method display_brand() that prints the vehicle's brand.
+# Create a child class Car that inherits from Vehicle.
+
+
+class vehicle():
+  def __init__(self , brand):
+    self.brand = brand
+
+  def display_brand(self):
+    print(self.brand)
+
+s2 = vehicle("AUDI")
+s2.display_brand()
+
+class car(vehicle):
+  pass
+
+s1 = car("BMW")
+s1.display_brand()
