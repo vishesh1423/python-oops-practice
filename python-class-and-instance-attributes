@@ -1,0 +1,26 @@
+class student():
+  college = "IIT BOMBAY"
+
+  def __init__(self,name,age):
+    self.name = name
+    self.age = age
+
+  def show(self):
+    print(self.name , self.age , self.college )
+
+s1 = student("vishesh" , 21)
+s2 = student("hardik" , 18)
+s3 = student("saksham" , 21)
+
+# s1.name , s1.college
+# s2.name , s2.college
+# s3.name , s3.college
+
+
+s1.show()
+s2.show()
+s3.show()
+
+s3.college = "IIT MADRAS"
+
+s3.show()
