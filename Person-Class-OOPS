@@ -1,0 +1,14 @@
+class person:
+  def __init__(self,name,city):
+    self.name = name
+    self.city = city
+
+
+s1 = person("vishesh","jaipur")
+print(s1.name , s1.city)
+
+s2 = person("saksham" , "delhi")
+print(s2.name , s2.city)
+
+s3 = person("hardik" , "mumbai")
+print(s3.name , s3.city)
